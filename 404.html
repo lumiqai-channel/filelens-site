@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FileLens — Huge Log + CSV Explorer for Windows</title>
+<meta name="description" content="FileLens is a local-first Windows desktop utility for viewing, searching, filtering, profiling, sorting, splitting, merging, deduplicating, and transforming large log and CSV files.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="FileLens — Huge Log + CSV Explorer">
+<meta property="og:description" content="Explore files too large for Excel or Notepad. Local-first Windows desktop software.">
+<meta property="og:image" content="assets/icon-512.png">
+</head>
+<body>
+
+<header>
+  <div class="container nav">
+    <a class="brand" href="index.html"><img src="assets/icon-64.png" alt="FileLens icon"><span>File<b>Lens</b></span></a>
+    <nav>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#privacy">Local-first</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a href="refund.html">Refunds</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Windows desktop software · Local-first processing</div>
+      <h1>Explore files too large for <span class="gold">Excel or Notepad.</span></h1>
+      <p>FileLens helps developers, support engineers, SREs, analysts, and data teams search huge logs and work with large CSV/TSV files directly on their Windows PC.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#pricing">View pricing</a>
+        <a class="btn btn-secondary" href="#features">See features</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="assets/filelens-icon.png" alt="FileLens app icon">
+      <h2 style="margin:0;text-align:center">FileLens</h2>
+      <p style="font-size:15px;text-align:center;margin:6px auto 0">Huge Log + CSV Explorer</p>
+      <div class="statline">
+        <div class="stat"><b>LOG / TEXT</b><span>Tail · Search · Regex · Multi-string</span></div>
+        <div class="stat"><b>CSV / TSV</b><span>Filter · Profile · Sort · Transform</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container">
+    <div class="section-title">
+      <h2>Built for large-file troubleshooting and data work</h2>
+      <p>FileLens avoids the usual “load everything into a spreadsheet or editor” workflow and focuses on operations that stay practical as files grow.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">⌕</div><h3>Large log search</h3><p>Tail logs, search one or multiple strings with AND/OR matching, use regular expressions, and highlight WARN/ERROR entries.</p></div>
+      <div class="card"><div class="icon">▦</div><h3>Excel-style CSV filters</h3><p>Filter CSV/TSV data from the column headers, combine multiple filters, and inspect only the records you need.</p></div>
+      <div class="card"><div class="icon">Σ</div><h3>SQL & profiling</h3><p>Run DuckDB SQL directly against CSV files and profile column types, blanks, distinct values, ranges, and averages.</p></div>
+      <div class="card"><div class="icon">↕</div><h3>Sort & sample</h3><p>Sort large CSV data, take random or first-N samples, and keep long-running operations cancelable.</p></div>
+      <div class="card"><div class="icon">✂</div><h3>Split, merge, deduplicate</h3><p>Break large files into manageable parts, merge compatible datasets, and remove duplicate rows using selected keys.</p></div>
+      <div class="card"><div class="icon">⇄</div><h3>Transform safely</h3><p>Export selected columns and convert CSV to Parquet using temporary outputs so source files are protected from accidental overwrite.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="privacy">
+  <div class="container">
+    <div class="local">
+      <div class="shield">🛡️</div>
+      <div>
+        <h2 style="font-size:34px;margin:0 0 10px">Your files stay on your computer.</h2>
+        <p style="color:var(--muted);font-size:18px">FileLens is designed as local-first desktop software. Log, CSV, TSV, JSONL, and Parquet data opened in the application is processed locally rather than uploaded to a FileLens cloud-processing service.</p>
+        <div class="checks">
+          <div class="check"><b>✓</b><span>No advertising telemetry in FileLens 1.0.</span></div>
+          <div class="check"><b>✓</b><span>Transformation operations protect source files from direct overwrite.</span></div>
+          <div class="check"><b>✓</b><span>Local diagnostic logs are intended to record application events and errors, not the contents of user data files.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <div class="section-title">
+      <h2>Simple software licensing</h2>
+      <p>FileLens is downloadable Windows software, not a hosted SaaS subscription.</p>
+    </div>
+    <div class="pricing">
+      <div class="price-card">
+        <h3>FileLens Free</h3>
+        <div class="price">$0</div>
+        <ul class="feature-list">
+          <li>Open and tail large log/text files</li>
+          <li>Basic log search</li>
+          <li>CSV/TSV preview</li>
+          <li>CSV filters</li>
+        </ul>
+      </div>
+      <div class="price-card pro">
+        <h3>FileLens Pro</h3>
+        <div class="price">$49 <small>one-time license</small></div>
+        <ul class="feature-list">
+          <li>Multi-string and regex search</li>
+          <li>DuckDB SQL and CSV profiling</li>
+          <li>Sort, split, merge and deduplicate</li>
+          <li>Column export and sampling</li>
+          <li>CSV → Parquet conversion</li>
+          <li>License intended for one purchaser on up to 3 devices</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note"><strong>Availability:</strong> FileLens is preparing for public release. Payment checkout will be enabled after payment-account verification and final release validation.</div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="contactbox">
+      <h2 style="margin-top:0">Customer support</h2>
+      <p>Questions about FileLens, licensing, compatibility, or refunds can be sent to <a href="mailto:support@advoryn.com">support@advoryn.com</a>.</p>
+      <p style="margin-bottom:0">For payment-related questions after purchase, customers may also receive support options through the payment provider shown at checkout.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>FileLens</strong><br>Windows software for large log and CSV workflows.</div>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="refund.html">Refund policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="mailto:support@advoryn.com">Support</a>
+    </div>
+    <div>© 2026 FileLens</div>
+  </div>
+</footer>
+
+</body>
+</html>
